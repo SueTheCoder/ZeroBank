@@ -54,7 +54,7 @@ public class login_pages {
             keepMeSignInChecked.click();
         BrowserUtils.sleep(1);
         signIn_button.click();
-
+        BrowserUtils.sleep(1);
         advanced_button.click();
         BrowserUtils.sleep(1);
         proceedLink_button.click();

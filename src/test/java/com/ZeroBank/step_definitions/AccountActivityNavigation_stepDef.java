@@ -1,5 +1,6 @@
 package com.ZeroBank.step_definitions;
 
+import com.ZeroBank.pages.accountActivityNav_pages;
 import com.ZeroBank.pages.login_pages;
 import com.ZeroBank.utilities.BrowserUtils;
 import com.ZeroBank.utilities.Driver;
@@ -19,6 +20,7 @@ public class AccountActivityNavigation_stepDef extends dynamicMethods {
 
     WebDriver driver = Driver.getDriver();
     login_pages login_pages = new login_pages();
+    accountActivityNav_pages accountActivityNav_pages = new accountActivityNav_pages();
 
     @Given("Account Summary page should have the title {string}")
     public void accountSummaryPageShouldHaveTheTitle(String expectedTitle) {
@@ -56,6 +58,44 @@ public class AccountActivityNavigation_stepDef extends dynamicMethods {
         Assert.assertTrue(accounts.isDisplayed());
     }
 
+
+
+/**
+ Feature: Find Transactions in Account Activity
+ */
+
+    @When("the user enters description {string}")
+    public void the_user_enters_description(String text) {
+        accountActivityNav_pages.description.sendKeys(text);
+    }
+
+    @When("clicks find button")
+    public void clicks_find_button() {
+        accountActivityNav_pages.findButton.click();
+    }
+
+    @Then("results table should only show descriptions containing {string}")
+    public void results_table_should_only_show_descriptions_containing(String text) {
+        List<WebElement> descriptionList = driver.findElements(By.xpath("//*[@id='filtered_transactions_for_account']/table/tbody/tr/td[2]"));
+        List<String> actualList = new ArrayList<>();
+        for(WebElement each : descriptionList){
+            System.out.println("each = " + each);
+            actualList.add(each.getText());
+        }
+
+    }
+
+    @Then("results table should only show No result.")
+    public void results_table_should_only_show_no_result() {
+        // Write code here that turns the phrase above into concrete actions
+        throw new io.cucumber.java.PendingException();
+    }
+
+    @Then("results table should not show descriptions containing {string}")
+    public void results_table_should_not_show_descriptions_containing(String string) {
+        // Write code here that turns the phrase above into concrete actions
+        throw new io.cucumber.java.PendingException();
+    }
 
 
 }

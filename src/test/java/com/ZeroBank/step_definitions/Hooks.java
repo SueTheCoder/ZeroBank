@@ -1,5 +1,6 @@
 package com.ZeroBank.step_definitions;
 
+import com.ZeroBank.utilities.BrowserUtils;
 import com.ZeroBank.utilities.Driver;
 import io.cucumber.java.After;
 import io.cucumber.java.Scenario;
@@ -15,6 +16,7 @@ public class Hooks {
             byte[] screenshot = ((TakesScreenshot) Driver.getDriver()).getScreenshotAs(OutputType.BYTES);
             scenario.attach(screenshot, "image/png", scenario.getName());
         } else {
+            BrowserUtils.sleep(2);
             Driver.closeDriver();
         }
     }

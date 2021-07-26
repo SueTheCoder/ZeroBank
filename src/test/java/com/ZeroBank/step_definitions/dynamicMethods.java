@@ -24,7 +24,7 @@ public class dynamicMethods {
 
 
     public void clickTabs(String tabName){
-        WebElement tabs = driver.findElement(By.xpath("//a[.='" + tabName+ "']"));
+        WebElement tabs = driver.findElement(By.xpath("//a[.='" + tabName + "']"));
         tabs.click();
     }
 
@@ -33,6 +33,9 @@ public class dynamicMethods {
         accounts.click();
     }
 
+    public void assertText(String expectedText, String actualText){
+        Assert.assertTrue("Text is not correct", actualText.contains(expectedText));
+    }
 
 
 }
