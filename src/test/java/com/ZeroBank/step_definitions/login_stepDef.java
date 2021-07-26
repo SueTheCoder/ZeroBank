@@ -1,10 +1,12 @@
 package com.ZeroBank.step_definitions;
 
 import com.ZeroBank.pages.login_pages;
+import com.ZeroBank.utilities.BrowserUtils;
 import com.ZeroBank.utilities.ConfigurationReader;
 import com.ZeroBank.utilities.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 
 public class login_stepDef extends dynamicMethods{
@@ -13,9 +15,13 @@ public class login_stepDef extends dynamicMethods{
     login_pages login_pages = new login_pages();
     //dynamicMethods dynamicMethods = new dynamicMethods();
 
+    @Given("user is on the login page")
+    public void userIsOnTheLoginPage() {
+        driver.get(ConfigurationReader.getProperty("URL"));
+    }
+
     @Given("the user fills {string} and {string} text boxes and clicks to Keep me signed in checkbox")
     public void theUserFillsAndTextBoxesAndClicksToKeepMeSignedInCheckbox(String username, String password) {
-        driver.get(ConfigurationReader.getProperty("URL"));
         login_pages.login_textBox.sendKeys(username);
         login_pages.password_textBox.sendKeys(password);
         login_pages.keepMeSignInChecked.click();
@@ -33,6 +39,26 @@ public class login_stepDef extends dynamicMethods{
         assertTitle("Zero - Account Summary");
     }
 
+    //====================== NEGATIVE TESTS CASES ============================================
+    @Given("the user leave blank username and password text boxes")
+    public void theUserLeaveBlankUsernameAndPasswordTextBoxes() {
+        login_pages.signIn_button.click();
+        BrowserUtils.sleep(1);
+    }
+
+    @Then("error message should be displayed")
+    public void error_message_should_be_displayed() {
+        String expectedError = "Login and/or password are wrong.";
+        String actualError = login_pages.errorMsg.getText();
+        Assert.assertTrue(actualError.contains(expectedError));
+    }
 
 
+    @Given("the user fills invalid {string} and {string} text boxes")
+    public void theUserFillsInvalidAndTextBoxes(String username, String password) {
+        login_pages.login_textBox.sendKeys(username);
+        login_pages.password_textBox.sendKeys(password);
+        login_pages.keepMeSignInChecked.click();
+        login_pages.signIn_button.click();
+    }
 }

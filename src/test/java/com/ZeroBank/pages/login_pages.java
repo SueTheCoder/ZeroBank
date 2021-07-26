@@ -33,6 +33,9 @@ public class login_pages {
     @FindBy(id = "proceed-link")
     public WebElement proceedLink_button;
 
+    @FindBy(xpath = "//div[@class='alert alert-error']")
+    public WebElement errorMsg;
+
 
 
     public void login_method(String username, String password, boolean isKeepMeSignInChecked){
