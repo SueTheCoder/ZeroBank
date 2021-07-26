@@ -1,7 +1,10 @@
 package com.ZeroBank.step_definitions;
 
 import com.ZeroBank.pages.login_pages;
+import com.ZeroBank.utilities.BrowserUtils;
 import com.ZeroBank.utilities.Driver;
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
@@ -9,10 +12,41 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class AccountActivityNavigation_stepDef extends dynamicMethods {
 
     WebDriver driver = Driver.getDriver();
     login_pages login_pages = new login_pages();
+
+    @Given("Account Summary page should have the title {string}")
+    public void accountSummaryPageShouldHaveTheTitle(String expectedTitle) {
+        assertTitle(expectedTitle);
+    }
+
+
+    @And("Account Summary page should have to following account types:")
+    public void accountSummaryPageShouldHaveToFollowingAccountTypes(List<String> tableElements) {
+        List<WebElement> tableHeads = driver.findElements(By.xpath("//h2"));
+        List<String> actual = new ArrayList<>();
+        for (WebElement each : tableHeads) {
+            System.out.println(each.getText());
+            actual.add(each.getText());
+        }
+        Assert.assertEquals(actual, tableElements);
+    }
+
+    @And("Credit Accounts table must have columns:")
+    public void creditAccountsTableMustHaveColumns(List<String> expectedTableElements) {
+        List<WebElement> tableHeads = driver.findElements(By.xpath("(//table[@class='table'])[3]/thead/tr/th"));
+        List<String> actual = new ArrayList<>();
+        for (WebElement each : tableHeads) {
+            System.out.println(each.getText());
+            actual.add(each.getText());
+        }
+        Assert.assertEquals(actual, expectedTableElements);
+    }
 
 
     @When("the user clicks on {string} link on the {string} page")

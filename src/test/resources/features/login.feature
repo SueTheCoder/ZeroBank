@@ -1,4 +1,5 @@
 
+@login
 Feature: Navigating to Zero Bank Login page
 
   Background: Login Page
@@ -12,11 +13,12 @@ Feature: Navigating to Zero Bank Login page
     Scenario: Users with blank username or wrong password should not be able to login.
       Given the user leave blank username and password text boxes
       Then error message should be displayed
-  @login
+
   Scenario: Users with wrong username or wrong password should not be able to login.
     Given the user fills invalid "user123" and "pass123" text boxes
     Then error message should be displayed
-@forgotPass
+
+@forgotPass @login
     Scenario: Users can click "Forgot your password ?" link and reset their password
       Given the user clicks Forgot your password ? link
       And the user fills email text box
