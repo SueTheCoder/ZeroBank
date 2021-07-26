@@ -21,9 +21,7 @@ public class dynamicMethods {
 
 
     public void clickTabs(String tabName){
-        WebElement tabs = driver.findElement(By.xpath("//li[@id='" +
-                tabName.toLowerCase().substring(0, tabName.indexOf(" ")) + "_" +
-                tabName.toLowerCase().substring(tabName.indexOf(" ")) + "_tab" + "']"));
+        WebElement tabs = driver.findElement(By.xpath("//a[.='" + tabName+ "']"));
         tabs.click();
     }
 
