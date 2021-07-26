@@ -36,7 +36,15 @@ public class login_pages {
     @FindBy(xpath = "//div[@class='alert alert-error']")
     public WebElement errorMsg;
 
+    @FindBy(xpath = "//a[.='Forgot your password ?']")
+    public WebElement forgotPasswordLink;
 
+    @FindBy(id = "user_email")
+    public WebElement forgot_EmailTextBox;
+
+
+    @FindBy(xpath = "//div[1]/div[2]/div/div/div")
+    public WebElement forgot_approved;
 
     public void login_method(String username, String password, boolean isKeepMeSignInChecked){
         login_textBox.sendKeys(username);

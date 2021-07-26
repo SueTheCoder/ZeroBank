@@ -61,4 +61,25 @@ public class login_stepDef extends dynamicMethods{
         login_pages.keepMeSignInChecked.click();
         login_pages.signIn_button.click();
     }
+
+    //========================= FORGOT PASSWORD ==========================================
+    @Given("the user clicks Forgot your password ? link")
+    public void the_user_clicks_forgot_your_password_link() {
+        login_pages.forgotPasswordLink.click();
+    }
+
+    @Given("the user fills email text box")
+    public void the_user_fills_email_text_box() {
+        login_pages.forgot_EmailTextBox.sendKeys("abc@gmail.com");
+        login_pages.signIn_button.click();
+    }
+
+    @Then("the user should see the Your password will be sent to the following email: text")
+    public void the_user_should_see_the_your_password_will_be_sent_to_the_following_email_text() {
+        String actualText = login_pages.forgot_approved.getText();
+        String expectedText= "Your password will be sent to the following email:";
+        Assert.assertTrue(actualText.contains(expectedText));
+    }
+
+
 }
