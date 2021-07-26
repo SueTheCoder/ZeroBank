@@ -43,7 +43,7 @@ public class login_pages {
     public WebElement forgot_EmailTextBox;
 
 
-    @FindBy(xpath = "//div[1]/div[2]/div/div/div")
+    @FindBy(xpath = "//div[@class='offset3 span6']")
     public WebElement forgot_approved;
 
     public void login_method(String username, String password, boolean isKeepMeSignInChecked){
