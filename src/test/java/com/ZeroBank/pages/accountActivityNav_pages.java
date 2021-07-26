@@ -35,4 +35,7 @@ public class accountActivityNav_pages {
     @FindBy(xpath = "//button[@type='submit']")
     public WebElement findButton;
 
+    @FindBy(xpath = "//div[@class='well']")
+    public WebElement noResultText;
+
 }

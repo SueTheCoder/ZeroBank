@@ -12,6 +12,7 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -79,23 +80,76 @@ public class AccountActivityNavigation_stepDef extends dynamicMethods {
         List<WebElement> descriptionList = driver.findElements(By.xpath("//*[@id='filtered_transactions_for_account']/table/tbody/tr/td[2]"));
         List<String> actualList = new ArrayList<>();
         for(WebElement each : descriptionList){
-            System.out.println("each = " + each);
+            System.out.println("each = " + each.getText());
             actualList.add(each.getText());
         }
-
+        Assert.assertTrue(actualList.toString().contains(text));
+        accountActivityNav_pages.description.clear();
     }
 
     @Then("results table should only show No result.")
     public void results_table_should_only_show_no_result() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+        String actualText = accountActivityNav_pages.noResultText.getText();
+        String expectedText = "No results.";
+        Assert.assertTrue(actualText.contains(expectedText));
+        accountActivityNav_pages.description.clear();
     }
 
-    @Then("results table should not show descriptions containing {string}")
-    public void results_table_should_not_show_descriptions_containing(String string) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+
+    // Scenario: Search date range
+
+
+    @When("the user enters date range from {string} to {string}")
+    public void the_user_enters_date_range_from_to(String from, String to) {
+        accountActivityNav_pages.dates_from.sendKeys(from);
+        accountActivityNav_pages.dates_to.sendKeys(to);
     }
+
+
+    @Then("results table should only show transactions dates between {string} to {string} and the results should be sorted by most recent date")
+    public void resultsTableShouldOnlyShowTransactionsDatesBetweenToAndTheResultsShouldBeSortedByMostRecentDate(String from, String to) {
+        List<WebElement> descriptionList = driver.findElements(By.xpath("//*[@id='filtered_transactions_for_account']/table/tbody/tr/td[1]"));
+        List<String> actualList = new ArrayList<>();
+        for(WebElement each : descriptionList){
+            System.out.println("each = " + each.getText());
+            actualList.add(each.getText());
+        }
+
+        Assert.assertTrue(actualList.contains(from) && actualList.contains(to));
+        Assert.assertEquals(actualList.get(0), to);
+    }
+
+
+    // Scenario: Search amounts range
+
+    @When("the user enters amounts range from {string} to {string}")
+    public void theUserEntersAmountsRangeFromTo(String from, String to) {
+        accountActivityNav_pages.amounts_from.sendKeys(from);
+        accountActivityNav_pages.amounts_to.sendKeys(to);
+    }
+
+    @Then("results table should only show transactions amounts between {int} to {int} and the results table should be sorted by deposit amount")
+    public void resultsTableShouldOnlyShowTransactionsAmountsBetweenToAndTheResultsTableShouldBeSortedByDepositAmount(double from, double to) {
+        List<WebElement> descriptionList = driver.findElements(By.xpath("//*[@id='filtered_transactions_for_account']/table/tbody/tr/td[3]"));
+        List<Double> actualList = new ArrayList<>();
+        for(WebElement each : descriptionList){
+            System.out.println("each = " + each.getText());
+            actualList.add(Double.parseDouble(each.getText()));
+        }
+
+        for (Double aDouble : actualList) {
+            if (aDouble <= to && aDouble >= from) {
+                Assert.assertTrue(true);
+            } else {
+                Assert.fail();
+            }
+        }
+    }
+
+
+    /**
+     *   Scenario: Type
+     */
 
 
 }
