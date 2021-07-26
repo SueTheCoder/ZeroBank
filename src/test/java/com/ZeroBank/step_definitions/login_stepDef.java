@@ -82,4 +82,9 @@ public class login_stepDef extends dynamicMethods{
     }
 
 
+    @Given("the user is logged in")
+    public void theUserIsLoggedIn() {
+        userIsOnTheLoginPage();
+        login_pages.login_method("username", "password", true);
+    }
 }
