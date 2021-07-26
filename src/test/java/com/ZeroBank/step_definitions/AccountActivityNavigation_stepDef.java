@@ -29,23 +29,13 @@ public class AccountActivityNavigation_stepDef extends dynamicMethods {
     @And("Account Summary page should have to following account types:")
     public void accountSummaryPageShouldHaveToFollowingAccountTypes(List<String> tableElements) {
         List<WebElement> tableHeads = driver.findElements(By.xpath("//h2"));
-        List<String> actual = new ArrayList<>();
-        for (WebElement each : tableHeads) {
-            System.out.println(each.getText());
-            actual.add(each.getText());
-        }
-        Assert.assertEquals(actual, tableElements);
+        BrowserUtils.getElementsText(tableHeads);
     }
 
     @And("Credit Accounts table must have columns:")
     public void creditAccountsTableMustHaveColumns(List<String> expectedTableElements) {
         List<WebElement> tableHeads = driver.findElements(By.xpath("(//table[@class='table'])[3]/thead/tr/th"));
-        List<String> actual = new ArrayList<>();
-        for (WebElement each : tableHeads) {
-            System.out.println(each.getText());
-            actual.add(each.getText());
-        }
-        Assert.assertEquals(actual, expectedTableElements);
+        BrowserUtils.getElementsText(tableHeads);
     }
 
 

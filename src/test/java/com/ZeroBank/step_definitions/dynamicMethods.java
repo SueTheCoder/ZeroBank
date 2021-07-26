@@ -8,6 +8,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import java.util.ArrayList;
+import java.util.List;
+
 
 public class dynamicMethods {
 
@@ -29,6 +32,7 @@ public class dynamicMethods {
         WebElement accounts = driver.findElement(By.xpath("//a[.='" + accountName + "']"));
         accounts.click();
     }
+
 
 
 }
