@@ -13,6 +13,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -98,7 +99,6 @@ public class AccountActivityNavigation_stepDef extends dynamicMethods {
 
     // Scenario: Search date range
 
-
     @When("the user enters date range from {string} to {string}")
     public void the_user_enters_date_range_from_to(String from, String to) {
         accountActivityNav_pages.dates_from.sendKeys(from);
@@ -146,10 +146,37 @@ public class AccountActivityNavigation_stepDef extends dynamicMethods {
         }
     }
 
+    //   Scenario: Type
 
-    /**
-     *   Scenario: Type
-     */
+    @When("user selects dropdown Type {string}")
+    public void user_selects_dropdown_type(String type) {
+        Select select = new Select(accountActivityNav_pages.typeDropdown);
+        select.selectByVisibleText(type);
+    }
+
+    @Then("results table should show at least one result under {string}")
+    public void results_table_should_show_at_least_one_result_under(String deposit) {
+        List<WebElement> depositResults = driver.findElements(By.xpath("//div[@id='filtered_transactions_for_account']/table/tbody/tr/td[3]"));
+        List<String> actualList = new ArrayList<>();
+        for(WebElement each : depositResults){
+            System.out.println("each.getText() = " + each.getText());
+            actualList.add(each.getText());
+        }
+        Assert.assertFalse(actualList.isEmpty());
+    }
+
+    @Then("results table should show no result under {string}")
+    public void results_table_should_show_no_result_under(String withdrawal) {
+        List<WebElement> depositResults = driver.findElements(By.xpath("//div[@id='filtered_transactions_for_account']/table/tbody/tr/td[4]"));
+        List<String> actualList = new ArrayList<>();
+        for(WebElement each : depositResults){
+            System.out.println("each.getText() = " + each.getText());
+            actualList.add(each.getText());
+        }
+        Assert.assertFalse(actualList.isEmpty());
+    }
+
+
 
 
 }

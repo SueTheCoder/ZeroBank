@@ -31,13 +31,13 @@ Feature: Find Transactions in Account Activity
   Scenario: Type
     When user selects dropdown Type "Any"
     And clicks find button
-    Then results table should show at least one result under Deposit   //div[@id='filtered_transactions_for_account']/table/tbody/tr/td[3]
-    Then results table should show at least one result under Withdrawal   //div[@id='filtered_transactions_for_account']/table/tbody/tr/td[4]
-    When user selects dropdown Type  "Deposit"
+    Then results table should show at least one result under "Deposit"
+    Then results table should show at least one result under "Withdrawal"
+    When user selects dropdown Type "Deposit"
     And clicks find button
-    Then results table should show at least one result under Deposit
-    But results table should show no result under Withdrawal  //div[@id='filtered_transactions_for_account']/table/tbody/tr/td[4]
-    When user selects dropdown Type  "Withdrawal"
+    Then results table should show at least one result under "Deposit"
+    But results table should show no result under "Withdrawal"
+    When user selects dropdown Type "Withdrawal"
     And clicks find button
-    Then results table should show at least one result under Withdrawal
-    But results table should show no result under Deposit  //div[@id='filtered_transactions_for_account']/table/tbody/tr/td[3]
+    Then results table should show at least one result under "Withdrawal"
+    But results table should show no result under "Deposit"

@@ -29,13 +29,22 @@ public class accountActivityNav_pages {
     @FindBy(id = "aa_toAmount")
     public WebElement amounts_to;
 
-    @FindBy(id = "aa_type")
-    public WebElement typeDropdown;
-
     @FindBy(xpath = "//button[@type='submit']")
     public WebElement findButton;
 
     @FindBy(xpath = "//div[@class='well']")
     public WebElement noResultText;
+
+    @FindBy(id = "aa_type")    //select[@id='aa_type']/option
+    public WebElement typeDropdown;
+
+    // under deposit
+    @FindBy(xpath = "//div[@id='filtered_transactions_for_account']/table/tbody/tr/td[3]")
+    public WebElement depositResults;
+
+    @FindBy(xpath = "//div[@id='filtered_transactions_for_account']/table/tbody/tr/td[4]")
+    public WebElement withdrawalResults;
+
+
 
 }
