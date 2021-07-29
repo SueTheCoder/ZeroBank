@@ -46,7 +46,7 @@ public class AccountActivityNavigation_stepDef extends dynamicMethods {
     @When("the user clicks on {string} link on the {string} page")
     public void the_user_clicks_on_link_on_the_page(String accountName, String tabName) {
         clickTabs(tabName);
-        accountSummaryLinks_click(accountName);
+        clickTabs(accountName);
     }
 
     @Then("the {string} page should be displayed")

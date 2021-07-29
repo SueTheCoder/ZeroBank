@@ -1,5 +1,4 @@
-
-@login
+@smoke @login
 Feature: Navigating to Zero Bank Login page
 
   Background: Login Page

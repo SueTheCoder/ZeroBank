@@ -42,23 +42,10 @@ public class login_pages {
     @FindBy(id = "user_email")
     public WebElement forgot_EmailTextBox;
 
-
     @FindBy(xpath = "//div[@class='offset3 span6']")
     public WebElement forgot_approved;
 
-    public void login_method(String username, String password, boolean isKeepMeSignInChecked){
-        login_textBox.sendKeys(username);
-        password_textBox.sendKeys(password);
-        BrowserUtils.sleep(1);
-        if(isKeepMeSignInChecked)
-            keepMeSignInChecked.click();
-        BrowserUtils.sleep(1);
-        signIn_button.click();
-        BrowserUtils.sleep(1);
-        advanced_button.click();
-        BrowserUtils.sleep(1);
-        proceedLink_button.click();
-    }
+
 
 
 }

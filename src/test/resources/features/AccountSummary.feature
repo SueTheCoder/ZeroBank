@@ -1,4 +1,4 @@
-@AccountSummary
+@smoke @accountSummary
 Feature: Account summary page
 
   Scenario: Account Summary page info

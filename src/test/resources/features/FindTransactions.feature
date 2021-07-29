@@ -1,5 +1,4 @@
-
-@findTransactions
+@smoke @findTransactions
 Feature: Find Transactions in Account Activity
 
   Background: Login
