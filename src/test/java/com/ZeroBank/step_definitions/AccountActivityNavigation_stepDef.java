@@ -152,27 +152,30 @@ public class AccountActivityNavigation_stepDef extends dynamicMethods {
     public void user_selects_dropdown_type(String type) {
         Select select = new Select(accountActivityNav_pages.typeDropdown);
         select.selectByVisibleText(type);
+        BrowserUtils.sleep(1);
     }
 
     @Then("results table should show at least one result under {string}")
     public void results_table_should_show_at_least_one_result_under(String deposit) {
-        List<WebElement> depositResults = driver.findElements(By.xpath("//div[@id='filtered_transactions_for_account']/table/tbody/tr/td[3]"));
+        List<WebElement> depositResults = driver.findElements(By.xpath("//*[@id='filtered_transactions_for_account']/table/tbody/tr['+i+']/td[3]"));
         List<String> actualList = new ArrayList<>();
         for(WebElement each : depositResults){
             System.out.println("each.getText() = " + each.getText());
             actualList.add(each.getText());
         }
+        BrowserUtils.sleep(1);
         Assert.assertFalse(actualList.isEmpty());
     }
 
     @Then("results table should show no result under {string}")
     public void results_table_should_show_no_result_under(String withdrawal) {
-        List<WebElement> depositResults = driver.findElements(By.xpath("//div[@id='filtered_transactions_for_account']/table/tbody/tr/td[4]"));
+        List<WebElement> depositResults = driver.findElements(By.xpath("//*[@id='filtered_transactions_for_account']/table/tbody/tr['+i+']/td[4]"));
         List<String> actualList = new ArrayList<>();
         for(WebElement each : depositResults){
             System.out.println("each.getText() = " + each.getText());
             actualList.add(each.getText());
         }
+        BrowserUtils.sleep(1);
         Assert.assertFalse(actualList.isEmpty());
     }
 
