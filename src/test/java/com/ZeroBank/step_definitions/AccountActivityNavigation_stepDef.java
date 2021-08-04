@@ -43,7 +43,7 @@ public class AccountActivityNavigation_stepDef extends dynamicMethods {
     }
 
 
-    @When("the user clicks on {string} link on the {string} page")
+    @When("the user clicks on {} link on the {} page")
     public void the_user_clicks_on_link_on_the_page(String accountName, String tabName) {
         clickTabs(tabName);
         clickTabs(accountName);

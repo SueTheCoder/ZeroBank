@@ -3,7 +3,7 @@ Feature: Purchase Foreign Currency
 
   Background: Login
     Given the user is logged in
-    Given the user clicks on "Purchase Foreign Currency" link on the "Pay Bills" page
+    Given the user clicks on Purchase Foreign Currency link on the Pay Bills page
 
   Scenario: Available currencies
     Then following currencies should be available
