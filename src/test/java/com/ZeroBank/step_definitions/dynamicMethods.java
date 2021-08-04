@@ -29,6 +29,7 @@ public class dynamicMethods extends login_pages{
         advanced_button.click();
         BrowserUtils.sleep(1);
         proceedLink_button.click();
+
     }
 
 

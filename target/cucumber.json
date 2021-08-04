@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3011000000,
+              "duration": 3532000000,
               "status": "passed"
             },
             "line": 5,
@@ -24,7 +24,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-07-29T16:54:04.245Z",
+        "start_timestamp": "2021-08-02T19:21:47.737Z",
         "line": 7,
         "name": "Savings account redirect",
         "description": "",
@@ -32,7 +32,7 @@
         "after": [
           {
             "result": {
-              "duration": 648000000,
+              "duration": 811000000,
               "status": "passed"
             },
             "match": {
@@ -45,7 +45,7 @@
         "steps": [
           {
             "result": {
-              "duration": 318000000,
+              "duration": 356000000,
               "status": "passed"
             },
             "line": 8,
@@ -67,7 +67,7 @@
           },
           {
             "result": {
-              "duration": 6000000,
+              "duration": 7000000,
               "status": "passed"
             },
             "line": 9,
@@ -85,7 +85,7 @@
           },
           {
             "result": {
-              "duration": 77000000,
+              "duration": 66000000,
               "status": "passed"
             },
             "line": 10,
@@ -120,7 +120,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2336000000,
+              "duration": 2690000000,
               "status": "passed"
             },
             "line": 5,
@@ -133,7 +133,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-07-29T16:54:08.377Z",
+        "start_timestamp": "2021-08-02T19:21:52.613Z",
         "line": 12,
         "name": "Brokerage account redirect",
         "description": "",
@@ -141,7 +141,7 @@
         "after": [
           {
             "result": {
-              "duration": 664000000,
+              "duration": 780000000,
               "status": "passed"
             },
             "match": {
@@ -154,7 +154,7 @@
         "steps": [
           {
             "result": {
-              "duration": 329000000,
+              "duration": 361000000,
               "status": "passed"
             },
             "line": 13,
@@ -176,7 +176,7 @@
           },
           {
             "result": {
-              "duration": 5000000,
+              "duration": 6000000,
               "status": "passed"
             },
             "line": 14,
@@ -194,7 +194,7 @@
           },
           {
             "result": {
-              "duration": 51000000,
+              "duration": 59000000,
               "status": "passed"
             },
             "line": 15,
@@ -229,7 +229,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2287000000,
+              "duration": 2747000000,
               "status": "passed"
             },
             "line": 5,
@@ -242,7 +242,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-07-29T16:54:11.765Z",
+        "start_timestamp": "2021-08-02T19:21:56.521Z",
         "line": 17,
         "name": "Checking account redirect",
         "description": "",
@@ -250,7 +250,7 @@
         "after": [
           {
             "result": {
-              "duration": 670000000,
+              "duration": 777000000,
               "status": "passed"
             },
             "match": {
@@ -263,7 +263,7 @@
         "steps": [
           {
             "result": {
-              "duration": 340000000,
+              "duration": 556000000,
               "status": "passed"
             },
             "line": 18,
@@ -285,7 +285,7 @@
           },
           {
             "result": {
-              "duration": 3000000,
+              "duration": 8000000,
               "status": "passed"
             },
             "line": 19,
@@ -303,7 +303,7 @@
           },
           {
             "result": {
-              "duration": 46000000,
+              "duration": 75000000,
               "status": "passed"
             },
             "line": 20,
@@ -338,7 +338,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2301000000,
+              "duration": 2735000000,
               "status": "passed"
             },
             "line": 5,
@@ -351,7 +351,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-07-29T16:54:15.122Z",
+        "start_timestamp": "2021-08-02T19:22:00.694Z",
         "line": 22,
         "name": "Credit Card account redirect",
         "description": "",
@@ -359,7 +359,7 @@
         "after": [
           {
             "result": {
-              "duration": 675000000,
+              "duration": 770000000,
               "status": "passed"
             },
             "match": {
@@ -372,7 +372,7 @@
         "steps": [
           {
             "result": {
-              "duration": 317000000,
+              "duration": 393000000,
               "status": "passed"
             },
             "line": 23,
@@ -394,7 +394,7 @@
           },
           {
             "result": {
-              "duration": 5000000,
+              "duration": 7000000,
               "status": "passed"
             },
             "line": 24,
@@ -412,7 +412,7 @@
           },
           {
             "result": {
-              "duration": 47000000,
+              "duration": 61000000,
               "status": "passed"
             },
             "line": 25,
@@ -447,7 +447,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2327000000,
+              "duration": 2668000000,
               "status": "passed"
             },
             "line": 5,
@@ -460,7 +460,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-07-29T16:54:18.477Z",
+        "start_timestamp": "2021-08-02T19:22:04.668Z",
         "line": 27,
         "name": "Loan account redirect",
         "description": "",
@@ -468,7 +468,7 @@
         "after": [
           {
             "result": {
-              "duration": 688000000,
+              "duration": 712000000,
               "status": "passed"
             },
             "match": {
@@ -481,7 +481,7 @@
         "steps": [
           {
             "result": {
-              "duration": 408000000,
+              "duration": 374000000,
               "status": "passed"
             },
             "line": 28,
@@ -521,7 +521,7 @@
           },
           {
             "result": {
-              "duration": 57000000,
+              "duration": 65000000,
               "status": "passed"
             },
             "line": 30,
@@ -576,7 +576,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-07-29T16:54:21.974Z",
+        "start_timestamp": "2021-08-02T19:22:08.505Z",
         "line": 4,
         "name": "Account Summary page info",
         "description": "",
@@ -584,7 +584,7 @@
         "after": [
           {
             "result": {
-              "duration": 655000000,
+              "duration": 731000000,
               "status": "passed"
             },
             "match": {
@@ -597,7 +597,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2311000000,
+              "duration": 3009000000,
               "status": "passed"
             },
             "line": 5,
@@ -609,7 +609,7 @@
           },
           {
             "result": {
-              "duration": 6000000,
+              "duration": 9000000,
               "status": "passed"
             },
             "line": 6,
@@ -627,7 +627,7 @@
           },
           {
             "result": {
-              "duration": 74000000,
+              "duration": 94000000,
               "status": "passed"
             },
             "line": 7,
@@ -661,7 +661,7 @@
           },
           {
             "result": {
-              "duration": 51000000,
+              "duration": 59000000,
               "status": "passed"
             },
             "line": 12,
@@ -735,7 +735,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2329000000,
+              "duration": 2966000000,
               "status": "passed"
             },
             "line": 5,
@@ -747,7 +747,7 @@
           },
           {
             "result": {
-              "duration": 283000000,
+              "duration": 312000000,
               "status": "passed"
             },
             "line": 6,
@@ -770,7 +770,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-07-29T16:54:25.080Z",
+        "start_timestamp": "2021-08-02T19:22:12.424Z",
         "line": 8,
         "name": "Search description case insensitive",
         "description": "",
@@ -778,7 +778,7 @@
         "after": [
           {
             "result": {
-              "duration": 659000000,
+              "duration": 856000000,
               "status": "passed"
             },
             "match": {
@@ -791,7 +791,7 @@
         "steps": [
           {
             "result": {
-              "duration": 78000000,
+              "duration": 179000000,
               "status": "passed"
             },
             "line": 9,
@@ -809,7 +809,7 @@
           },
           {
             "result": {
-              "duration": 66000000,
+              "duration": 67000000,
               "status": "passed"
             },
             "line": 10,
@@ -821,7 +821,7 @@
           },
           {
             "result": {
-              "duration": 115000000,
+              "duration": 182000000,
               "status": "passed"
             },
             "line": 11,
@@ -839,7 +839,7 @@
           },
           {
             "result": {
-              "duration": 73000000,
+              "duration": 58000000,
               "status": "passed"
             },
             "line": 12,
@@ -857,7 +857,7 @@
           },
           {
             "result": {
-              "duration": 51000000,
+              "duration": 55000000,
               "status": "passed"
             },
             "line": 13,
@@ -869,7 +869,7 @@
           },
           {
             "result": {
-              "duration": 93000000,
+              "duration": 133000000,
               "status": "passed"
             },
             "line": 14,
@@ -881,7 +881,7 @@
           },
           {
             "result": {
-              "duration": 57000000,
+              "duration": 61000000,
               "status": "passed"
             },
             "line": 15,
@@ -899,7 +899,7 @@
           },
           {
             "result": {
-              "duration": 36000000,
+              "duration": 48000000,
               "status": "passed"
             },
             "line": 16,
@@ -911,7 +911,7 @@
           },
           {
             "result": {
-              "duration": 82000000,
+              "duration": 137000000,
               "status": "passed"
             },
             "line": 17,
@@ -946,7 +946,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2336000000,
+              "duration": 2656000000,
               "status": "passed"
             },
             "line": 5,
@@ -958,7 +958,7 @@
           },
           {
             "result": {
-              "duration": 301000000,
+              "duration": 327000000,
               "status": "passed"
             },
             "line": 6,
@@ -981,7 +981,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-07-29T16:54:29.012Z",
+        "start_timestamp": "2021-08-02T19:22:17.493Z",
         "line": 19,
         "name": "Search date range",
         "description": "",
@@ -989,7 +989,7 @@
         "after": [
           {
             "result": {
-              "duration": 651000000,
+              "duration": 734000000,
               "status": "passed"
             },
             "match": {
@@ -1002,7 +1002,7 @@
         "steps": [
           {
             "result": {
-              "duration": 186000000,
+              "duration": 268000000,
               "status": "passed"
             },
             "line": 20,
@@ -1024,7 +1024,7 @@
           },
           {
             "result": {
-              "duration": 71000000,
+              "duration": 69000000,
               "status": "passed"
             },
             "line": 21,
@@ -1036,7 +1036,7 @@
           },
           {
             "result": {
-              "duration": 126000000,
+              "duration": 148000000,
               "status": "passed"
             },
             "line": 22,
@@ -1075,7 +1075,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2337000000,
+              "duration": 2687000000,
               "status": "passed"
             },
             "line": 5,
@@ -1087,7 +1087,7 @@
           },
           {
             "result": {
-              "duration": 276000000,
+              "duration": 324000000,
               "status": "passed"
             },
             "line": 6,
@@ -1110,7 +1110,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-07-29T16:54:32.694Z",
+        "start_timestamp": "2021-08-02T19:22:21.709Z",
         "line": 25,
         "name": "Search amounts range",
         "description": "",
@@ -1118,7 +1118,7 @@
         "after": [
           {
             "result": {
-              "duration": 663000000,
+              "duration": 866000000,
               "status": "passed"
             },
             "match": {
@@ -1131,7 +1131,7 @@
         "steps": [
           {
             "result": {
-              "duration": 208000000,
+              "duration": 194000000,
               "status": "passed"
             },
             "line": 26,
@@ -1153,7 +1153,7 @@
           },
           {
             "result": {
-              "duration": 63000000,
+              "duration": 65000000,
               "status": "passed"
             },
             "line": 27,
@@ -1165,7 +1165,7 @@
           },
           {
             "result": {
-              "duration": 61000000,
+              "duration": 81000000,
               "status": "passed"
             },
             "line": 28,
@@ -1204,7 +1204,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2298000000,
+              "duration": 2786000000,
               "status": "passed"
             },
             "line": 5,
@@ -1216,7 +1216,7 @@
           },
           {
             "result": {
-              "duration": 262000000,
+              "duration": 326000000,
               "status": "passed"
             },
             "line": 6,
@@ -1239,7 +1239,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-07-29T16:54:36.312Z",
+        "start_timestamp": "2021-08-02T19:22:25.935Z",
         "line": 30,
         "name": "Type",
         "description": "",
@@ -1247,7 +1247,7 @@
         "after": [
           {
             "result": {
-              "duration": 645000000,
+              "duration": 714000000,
               "status": "passed"
             },
             "match": {
@@ -1260,7 +1260,7 @@
         "steps": [
           {
             "result": {
-              "duration": 128000000,
+              "duration": 127000000,
               "status": "passed"
             },
             "line": 31,
@@ -1278,7 +1278,7 @@
           },
           {
             "result": {
-              "duration": 57000000,
+              "duration": 64000000,
               "status": "passed"
             },
             "line": 32,
@@ -1290,7 +1290,7 @@
           },
           {
             "result": {
-              "duration": 132000000,
+              "duration": 93000000,
               "status": "passed"
             },
             "line": 33,
@@ -1308,7 +1308,7 @@
           },
           {
             "result": {
-              "duration": 62000000,
+              "duration": 63000000,
               "status": "passed"
             },
             "line": 34,
@@ -1326,7 +1326,7 @@
           },
           {
             "result": {
-              "duration": 141000000,
+              "duration": 143000000,
               "status": "passed"
             },
             "line": 35,
@@ -1344,7 +1344,7 @@
           },
           {
             "result": {
-              "duration": 49000000,
+              "duration": 52000000,
               "status": "passed"
             },
             "line": 36,
@@ -1356,7 +1356,7 @@
           },
           {
             "result": {
-              "duration": 62000000,
+              "duration": 57000000,
               "status": "passed"
             },
             "line": 37,
@@ -1374,7 +1374,7 @@
           },
           {
             "result": {
-              "duration": 63000000,
+              "duration": 77000000,
               "status": "passed"
             },
             "line": 38,
@@ -1392,7 +1392,7 @@
           },
           {
             "result": {
-              "duration": 143000000,
+              "duration": 141000000,
               "status": "passed"
             },
             "line": 39,
@@ -1410,7 +1410,7 @@
           },
           {
             "result": {
-              "duration": 49000000,
+              "duration": 51000000,
               "status": "passed"
             },
             "line": 40,
@@ -1422,7 +1422,7 @@
           },
           {
             "result": {
-              "duration": 45000000,
+              "duration": 42000000,
               "status": "passed"
             },
             "line": 41,
@@ -1440,7 +1440,7 @@
           },
           {
             "result": {
-              "duration": 46000000,
+              "duration": 48000000,
               "status": "passed"
             },
             "line": 42,
@@ -1503,7 +1503,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2412000000,
+              "duration": 2791000000,
               "status": "passed"
             },
             "line": 5,
@@ -1516,7 +1516,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-07-29T16:54:40.508Z",
+        "start_timestamp": "2021-08-02T19:22:30.729Z",
         "line": 19,
         "name": "Pay Bills",
         "description": "",
@@ -1524,7 +1524,700 @@
         "after": [
           {
             "result": {
-              "duration": 657000000,
+              "duration": 781000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ZeroBank.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 296000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user clicks on \"Add New Payee\" link on the \"Pay Bills\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Add New Payee\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Pay Bills\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.ZeroBank.step_definitions.AccountActivityNavigation_stepDef.the_user_clicks_on_link_on_the_page(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 159000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Pay Bills page should have the title \"Zero - Pay Bills\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Zero - Pay Bills\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.ZeroBank.step_definitions.PayBills_stepDef.payBillsPageShouldHaveTheTitle(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 99000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user selects \"Sprint\" under the Make payments feature for \"payee\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sprint\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"payee\"",
+                  "offset": 58
+                }
+              ],
+              "location": "com.ZeroBank.step_definitions.PayBills_stepDef.userSelectsUnderTheMakePaymentsFeatureFor(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 93000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user selects \"Savings\" under the Make payments feature for \"account\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Savings\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"account\"",
+                  "offset": 59
+                }
+              ],
+              "location": "com.ZeroBank.step_definitions.PayBills_stepDef.userSelectsUnderTheMakePaymentsFeatureFor(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 125000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user types \"100\" under the Make payments feature for \"amount\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"100\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"amount\"",
+                  "offset": 53
+                }
+              ],
+              "location": "com.ZeroBank.step_definitions.PayBills_stepDef.userTypesUnderTheMakePaymentsFeatureFor(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user types \"2021-07-01\" under the Make payments feature for \"date\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2021-07-01\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"date\"",
+                  "offset": 60
+                }
+              ],
+              "location": "com.ZeroBank.step_definitions.PayBills_stepDef.userTypesUnderTheMakePaymentsFeatureFor(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 110000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user types \"groceries\" under the Make payments feature for \"description\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"groceries\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"description\"",
+                  "offset": 59
+                }
+              ],
+              "location": "com.ZeroBank.step_definitions.PayBills_stepDef.userTypesUnderTheMakePaymentsFeatureFor(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 137000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user clicks to pay button",
+            "match": {
+              "location": "com.ZeroBank.step_definitions.PayBills_stepDef.userClicksToPayButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user completes a successful Pay operation, \"The payment was successfully submitted.\" should be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"The payment was successfully submitted.\"",
+                  "offset": 43
+                }
+              ],
+              "location": "com.ZeroBank.step_definitions.PayBills_stepDef.userCompletesASuccessfulPayOperationShouldBeDisplayed(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@payBill"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Login",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2738000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is logged in",
+            "match": {
+              "location": "com.ZeroBank.step_definitions.login_stepDef.theUserIsLoggedIn()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-02T19:22:35.463Z",
+        "line": 20,
+        "name": "Pay Bills",
+        "description": "",
+        "id": "add-new-payee-under-pay-bills;pay-bills;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 756000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ZeroBank.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 354000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user clicks on \"Add New Payee\" link on the \"Pay Bills\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Add New Payee\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Pay Bills\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.ZeroBank.step_definitions.AccountActivityNavigation_stepDef.the_user_clicks_on_link_on_the_page(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 171000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Pay Bills page should have the title \"Zero - Pay Bills\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Zero - Pay Bills\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.ZeroBank.step_definitions.PayBills_stepDef.payBillsPageShouldHaveTheTitle(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 163000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user selects \"Bank of America\" under the Make payments feature for \"payee\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bank of America\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"payee\"",
+                  "offset": 67
+                }
+              ],
+              "location": "com.ZeroBank.step_definitions.PayBills_stepDef.userSelectsUnderTheMakePaymentsFeatureFor(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 124000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user selects \"Checking\" under the Make payments feature for \"account\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Checking\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"account\"",
+                  "offset": 60
+                }
+              ],
+              "location": "com.ZeroBank.step_definitions.PayBills_stepDef.userSelectsUnderTheMakePaymentsFeatureFor(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user types \"1000\" under the Make payments feature for \"amount\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1000\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"amount\"",
+                  "offset": 54
+                }
+              ],
+              "location": "com.ZeroBank.step_definitions.PayBills_stepDef.userTypesUnderTheMakePaymentsFeatureFor(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user types \"2021-07-02\" under the Make payments feature for \"date\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2021-07-02\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"date\"",
+                  "offset": 60
+                }
+              ],
+              "location": "com.ZeroBank.step_definitions.PayBills_stepDef.userTypesUnderTheMakePaymentsFeatureFor(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user types \"rent\" under the Make payments feature for \"description\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"rent\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"description\"",
+                  "offset": 54
+                }
+              ],
+              "location": "com.ZeroBank.step_definitions.PayBills_stepDef.userTypesUnderTheMakePaymentsFeatureFor(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 145000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user clicks to pay button",
+            "match": {
+              "location": "com.ZeroBank.step_definitions.PayBills_stepDef.userClicksToPayButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user completes a successful Pay operation, \"The payment was successfully submitted.\" should be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"The payment was successfully submitted.\"",
+                  "offset": 43
+                }
+              ],
+              "location": "com.ZeroBank.step_definitions.PayBills_stepDef.userCompletesASuccessfulPayOperationShouldBeDisplayed(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@payBill"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Login",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2631000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is logged in",
+            "match": {
+              "location": "com.ZeroBank.step_definitions.login_stepDef.theUserIsLoggedIn()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-02T19:22:40.233Z",
+        "line": 21,
+        "name": "Pay Bills",
+        "description": "",
+        "id": "add-new-payee-under-pay-bills;pay-bills;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 754000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ZeroBank.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 289000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user clicks on \"Add New Payee\" link on the \"Pay Bills\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Add New Payee\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Pay Bills\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.ZeroBank.step_definitions.AccountActivityNavigation_stepDef.the_user_clicks_on_link_on_the_page(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 166000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Pay Bills page should have the title \"Zero - Pay Bills\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Zero - Pay Bills\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.ZeroBank.step_definitions.PayBills_stepDef.payBillsPageShouldHaveTheTitle(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 120000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user selects \"Apple\" under the Make payments feature for \"payee\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Apple\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"payee\"",
+                  "offset": 57
+                }
+              ],
+              "location": "com.ZeroBank.step_definitions.PayBills_stepDef.userSelectsUnderTheMakePaymentsFeatureFor(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 124000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user selects \"Credit Card\" under the Make payments feature for \"account\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Credit Card\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"account\"",
+                  "offset": 63
+                }
+              ],
+              "location": "com.ZeroBank.step_definitions.PayBills_stepDef.userSelectsUnderTheMakePaymentsFeatureFor(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 125000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user types \"750\" under the Make payments feature for \"amount\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"750\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"amount\"",
+                  "offset": 53
+                }
+              ],
+              "location": "com.ZeroBank.step_definitions.PayBills_stepDef.userTypesUnderTheMakePaymentsFeatureFor(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 96000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user types \"2021-07-03\" under the Make payments feature for \"date\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2021-07-03\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"date\"",
+                  "offset": 60
+                }
+              ],
+              "location": "com.ZeroBank.step_definitions.PayBills_stepDef.userTypesUnderTheMakePaymentsFeatureFor(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 92000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user types \"credit card payment\" under the Make payments feature for \"description\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"credit card payment\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"description\"",
+                  "offset": 69
+                }
+              ],
+              "location": "com.ZeroBank.step_definitions.PayBills_stepDef.userTypesUnderTheMakePaymentsFeatureFor(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 154000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user clicks to pay button",
+            "match": {
+              "location": "com.ZeroBank.step_definitions.PayBills_stepDef.userClicksToPayButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user completes a successful Pay operation, \"The payment was successfully submitted.\" should be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"The payment was successfully submitted.\"",
+                  "offset": 43
+                }
+              ],
+              "location": "com.ZeroBank.step_definitions.PayBills_stepDef.userCompletesASuccessfulPayOperationShouldBeDisplayed(java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@payBill"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Login",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2739000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is logged in",
+            "match": {
+              "location": "com.ZeroBank.step_definitions.login_stepDef.theUserIsLoggedIn()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-02T19:22:44.840Z",
+        "line": 22,
+        "name": "Pay Bills",
+        "description": "",
+        "id": "add-new-payee-under-pay-bills;pay-bills;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 756000000,
               "status": "passed"
             },
             "match": {
@@ -1559,7 +2252,7 @@
           },
           {
             "result": {
-              "duration": 142000000,
+              "duration": 155000000,
               "status": "passed"
             },
             "line": 9,
@@ -1577,700 +2270,7 @@
           },
           {
             "result": {
-              "duration": 98000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user selects \"Sprint\" under the Make payments feature for \"payee\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Sprint\"",
-                  "offset": 13
-                },
-                {
-                  "val": "\"payee\"",
-                  "offset": 58
-                }
-              ],
-              "location": "com.ZeroBank.step_definitions.PayBills_stepDef.userSelectsUnderTheMakePaymentsFeatureFor(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 79000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user selects \"Savings\" under the Make payments feature for \"account\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Savings\"",
-                  "offset": 13
-                },
-                {
-                  "val": "\"account\"",
-                  "offset": 59
-                }
-              ],
-              "location": "com.ZeroBank.step_definitions.PayBills_stepDef.userSelectsUnderTheMakePaymentsFeatureFor(java.lang.String,java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 111000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "user types \"100\" under the Make payments feature for \"amount\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"100\"",
-                  "offset": 11
-                },
-                {
-                  "val": "\"amount\"",
-                  "offset": 53
-                }
-              ],
-              "location": "com.ZeroBank.step_definitions.PayBills_stepDef.userTypesUnderTheMakePaymentsFeatureFor(java.lang.String,java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 80000000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "user types \"2021-07-01\" under the Make payments feature for \"date\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"2021-07-01\"",
-                  "offset": 11
-                },
-                {
-                  "val": "\"date\"",
-                  "offset": 60
-                }
-              ],
-              "location": "com.ZeroBank.step_definitions.PayBills_stepDef.userTypesUnderTheMakePaymentsFeatureFor(java.lang.String,java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 79000000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "user types \"groceries\" under the Make payments feature for \"description\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"groceries\"",
-                  "offset": 11
-                },
-                {
-                  "val": "\"description\"",
-                  "offset": 59
-                }
-              ],
-              "location": "com.ZeroBank.step_definitions.PayBills_stepDef.userTypesUnderTheMakePaymentsFeatureFor(java.lang.String,java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 134000000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "user clicks to pay button",
-            "match": {
-              "location": "com.ZeroBank.step_definitions.PayBills_stepDef.userClicksToPayButton()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 29000000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "user completes a successful Pay operation, \"The payment was successfully submitted.\" should be displayed",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"The payment was successfully submitted.\"",
-                  "offset": 43
-                }
-              ],
-              "location": "com.ZeroBank.step_definitions.PayBills_stepDef.userCompletesASuccessfulPayOperationShouldBeDisplayed(java.lang.String)"
-            },
-            "keyword": "When "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@smoke"
-          },
-          {
-            "name": "@payBill"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "Login",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 2272000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "the user is logged in",
-            "match": {
-              "location": "com.ZeroBank.step_definitions.login_stepDef.theUserIsLoggedIn()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-07-29T16:54:44.620Z",
-        "line": 20,
-        "name": "Pay Bills",
-        "description": "",
-        "id": "add-new-payee-under-pay-bills;pay-bills;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 684000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.ZeroBank.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 270000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "the user clicks on \"Add New Payee\" link on the \"Pay Bills\" page",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Add New Payee\"",
-                  "offset": 19
-                },
-                {
-                  "val": "\"Pay Bills\"",
-                  "offset": 47
-                }
-              ],
-              "location": "com.ZeroBank.step_definitions.AccountActivityNavigation_stepDef.the_user_clicks_on_link_on_the_page(java.lang.String,java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 135000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "Pay Bills page should have the title \"Zero - Pay Bills\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Zero - Pay Bills\"",
-                  "offset": 37
-                }
-              ],
-              "location": "com.ZeroBank.step_definitions.PayBills_stepDef.payBillsPageShouldHaveTheTitle(java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 120000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user selects \"Bank of America\" under the Make payments feature for \"payee\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Bank of America\"",
-                  "offset": 13
-                },
-                {
-                  "val": "\"payee\"",
-                  "offset": 67
-                }
-              ],
-              "location": "com.ZeroBank.step_definitions.PayBills_stepDef.userSelectsUnderTheMakePaymentsFeatureFor(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 111000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user selects \"Checking\" under the Make payments feature for \"account\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Checking\"",
-                  "offset": 13
-                },
-                {
-                  "val": "\"account\"",
-                  "offset": 60
-                }
-              ],
-              "location": "com.ZeroBank.step_definitions.PayBills_stepDef.userSelectsUnderTheMakePaymentsFeatureFor(java.lang.String,java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 109000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "user types \"1000\" under the Make payments feature for \"amount\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"1000\"",
-                  "offset": 11
-                },
-                {
-                  "val": "\"amount\"",
-                  "offset": 54
-                }
-              ],
-              "location": "com.ZeroBank.step_definitions.PayBills_stepDef.userTypesUnderTheMakePaymentsFeatureFor(java.lang.String,java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 80000000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "user types \"2021-07-02\" under the Make payments feature for \"date\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"2021-07-02\"",
-                  "offset": 11
-                },
-                {
-                  "val": "\"date\"",
-                  "offset": 60
-                }
-              ],
-              "location": "com.ZeroBank.step_definitions.PayBills_stepDef.userTypesUnderTheMakePaymentsFeatureFor(java.lang.String,java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 63000000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "user types \"rent\" under the Make payments feature for \"description\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"rent\"",
-                  "offset": 11
-                },
-                {
-                  "val": "\"description\"",
-                  "offset": 54
-                }
-              ],
-              "location": "com.ZeroBank.step_definitions.PayBills_stepDef.userTypesUnderTheMakePaymentsFeatureFor(java.lang.String,java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 120000000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "user clicks to pay button",
-            "match": {
-              "location": "com.ZeroBank.step_definitions.PayBills_stepDef.userClicksToPayButton()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 33000000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "user completes a successful Pay operation, \"The payment was successfully submitted.\" should be displayed",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"The payment was successfully submitted.\"",
-                  "offset": 43
-                }
-              ],
-              "location": "com.ZeroBank.step_definitions.PayBills_stepDef.userCompletesASuccessfulPayOperationShouldBeDisplayed(java.lang.String)"
-            },
-            "keyword": "When "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@smoke"
-          },
-          {
-            "name": "@payBill"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "Login",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 2370000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "the user is logged in",
-            "match": {
-              "location": "com.ZeroBank.step_definitions.login_stepDef.theUserIsLoggedIn()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-07-29T16:54:48.629Z",
-        "line": 21,
-        "name": "Pay Bills",
-        "description": "",
-        "id": "add-new-payee-under-pay-bills;pay-bills;;4",
-        "after": [
-          {
-            "result": {
-              "duration": 670000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.ZeroBank.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 315000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "the user clicks on \"Add New Payee\" link on the \"Pay Bills\" page",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Add New Payee\"",
-                  "offset": 19
-                },
-                {
-                  "val": "\"Pay Bills\"",
-                  "offset": 47
-                }
-              ],
-              "location": "com.ZeroBank.step_definitions.AccountActivityNavigation_stepDef.the_user_clicks_on_link_on_the_page(java.lang.String,java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 138000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "Pay Bills page should have the title \"Zero - Pay Bills\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Zero - Pay Bills\"",
-                  "offset": 37
-                }
-              ],
-              "location": "com.ZeroBank.step_definitions.PayBills_stepDef.payBillsPageShouldHaveTheTitle(java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 96000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user selects \"Apple\" under the Make payments feature for \"payee\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Apple\"",
-                  "offset": 13
-                },
-                {
-                  "val": "\"payee\"",
-                  "offset": 57
-                }
-              ],
-              "location": "com.ZeroBank.step_definitions.PayBills_stepDef.userSelectsUnderTheMakePaymentsFeatureFor(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 110000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user selects \"Credit Card\" under the Make payments feature for \"account\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Credit Card\"",
-                  "offset": 13
-                },
-                {
-                  "val": "\"account\"",
-                  "offset": 63
-                }
-              ],
-              "location": "com.ZeroBank.step_definitions.PayBills_stepDef.userSelectsUnderTheMakePaymentsFeatureFor(java.lang.String,java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 94000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "user types \"750\" under the Make payments feature for \"amount\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"750\"",
-                  "offset": 11
-                },
-                {
-                  "val": "\"amount\"",
-                  "offset": 53
-                }
-              ],
-              "location": "com.ZeroBank.step_definitions.PayBills_stepDef.userTypesUnderTheMakePaymentsFeatureFor(java.lang.String,java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 79000000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "user types \"2021-07-03\" under the Make payments feature for \"date\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"2021-07-03\"",
-                  "offset": 11
-                },
-                {
-                  "val": "\"date\"",
-                  "offset": 60
-                }
-              ],
-              "location": "com.ZeroBank.step_definitions.PayBills_stepDef.userTypesUnderTheMakePaymentsFeatureFor(java.lang.String,java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 79000000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "user types \"credit card payment\" under the Make payments feature for \"description\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"credit card payment\"",
-                  "offset": 11
-                },
-                {
-                  "val": "\"description\"",
-                  "offset": 69
-                }
-              ],
-              "location": "com.ZeroBank.step_definitions.PayBills_stepDef.userTypesUnderTheMakePaymentsFeatureFor(java.lang.String,java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 125000000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "user clicks to pay button",
-            "match": {
-              "location": "com.ZeroBank.step_definitions.PayBills_stepDef.userClicksToPayButton()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 39000000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "user completes a successful Pay operation, \"The payment was successfully submitted.\" should be displayed",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"The payment was successfully submitted.\"",
-                  "offset": 43
-                }
-              ],
-              "location": "com.ZeroBank.step_definitions.PayBills_stepDef.userCompletesASuccessfulPayOperationShouldBeDisplayed(java.lang.String)"
-            },
-            "keyword": "When "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@smoke"
-          },
-          {
-            "name": "@payBill"
-          }
-        ]
-      },
-      {
-        "line": 4,
-        "name": "Login",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 2240000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "the user is logged in",
-            "match": {
-              "location": "com.ZeroBank.step_definitions.login_stepDef.theUserIsLoggedIn()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-07-29T16:54:52.752Z",
-        "line": 22,
-        "name": "Pay Bills",
-        "description": "",
-        "id": "add-new-payee-under-pay-bills;pay-bills;;5",
-        "after": [
-          {
-            "result": {
-              "duration": 687000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.ZeroBank.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 263000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "the user clicks on \"Add New Payee\" link on the \"Pay Bills\" page",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Add New Payee\"",
-                  "offset": 19
-                },
-                {
-                  "val": "\"Pay Bills\"",
-                  "offset": 47
-                }
-              ],
-              "location": "com.ZeroBank.step_definitions.AccountActivityNavigation_stepDef.the_user_clicks_on_link_on_the_page(java.lang.String,java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 140000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "Pay Bills page should have the title \"Zero - Pay Bills\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Zero - Pay Bills\"",
-                  "offset": 37
-                }
-              ],
-              "location": "com.ZeroBank.step_definitions.PayBills_stepDef.payBillsPageShouldHaveTheTitle(java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 103000000,
+              "duration": 121000000,
               "status": "passed"
             },
             "line": 10,
@@ -2292,7 +2292,7 @@
           },
           {
             "result": {
-              "duration": 111000000,
+              "duration": 122000000,
               "status": "passed"
             },
             "line": 11,
@@ -2314,7 +2314,7 @@
           },
           {
             "result": {
-              "duration": 94000000,
+              "duration": 109000000,
               "status": "passed"
             },
             "line": 12,
@@ -2336,7 +2336,7 @@
           },
           {
             "result": {
-              "duration": 79000000,
+              "duration": 94000000,
               "status": "passed"
             },
             "line": 13,
@@ -2358,7 +2358,7 @@
           },
           {
             "result": {
-              "duration": 80000000,
+              "duration": 79000000,
               "status": "passed"
             },
             "line": 14,
@@ -2380,7 +2380,7 @@
           },
           {
             "result": {
-              "duration": 122000000,
+              "duration": 138000000,
               "status": "passed"
             },
             "line": 15,
@@ -2392,7 +2392,7 @@
           },
           {
             "result": {
-              "duration": 29000000,
+              "duration": 30000000,
               "status": "passed"
             },
             "line": 16,
@@ -2427,7 +2427,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2385000000,
+              "duration": 2800000000,
               "status": "passed"
             },
             "line": 5,
@@ -2440,7 +2440,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-07-29T16:54:56.710Z",
+        "start_timestamp": "2021-08-02T19:22:49.479Z",
         "line": 37,
         "name": "Add a new payee",
         "description": "",
@@ -2448,7 +2448,7 @@
         "after": [
           {
             "result": {
-              "duration": 660000000,
+              "duration": 787000000,
               "status": "passed"
             },
             "match": {
@@ -2461,7 +2461,7 @@
         "steps": [
           {
             "result": {
-              "duration": 392000000,
+              "duration": 326000000,
               "status": "passed"
             },
             "line": 28,
@@ -2473,7 +2473,7 @@
           },
           {
             "result": {
-              "duration": 138000000,
+              "duration": 170000000,
               "status": "passed"
             },
             "line": 29,
@@ -2491,7 +2491,7 @@
           },
           {
             "result": {
-              "duration": 126000000,
+              "duration": 123000000,
               "status": "passed"
             },
             "line": 30,
@@ -2509,7 +2509,7 @@
           },
           {
             "result": {
-              "duration": 62000000,
+              "duration": 67000000,
               "status": "passed"
             },
             "line": 31,
@@ -2527,7 +2527,7 @@
           },
           {
             "result": {
-              "duration": 62000000,
+              "duration": 80000000,
               "status": "passed"
             },
             "line": 32,
@@ -2545,7 +2545,7 @@
           },
           {
             "result": {
-              "duration": 129000000,
+              "duration": 169000000,
               "status": "passed"
             },
             "line": 33,
@@ -2557,7 +2557,7 @@
           },
           {
             "result": {
-              "duration": 36000000,
+              "duration": 42000000,
               "status": "passed"
             },
             "line": 34,
@@ -2592,7 +2592,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2295000000,
+              "duration": 2684000000,
               "status": "passed"
             },
             "line": 5,
@@ -2605,7 +2605,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-07-29T16:55:00.709Z",
+        "start_timestamp": "2021-08-02T19:22:54.050Z",
         "line": 38,
         "name": "Add a new payee",
         "description": "",
@@ -2613,7 +2613,7 @@
         "after": [
           {
             "result": {
-              "duration": 676000000,
+              "duration": 751000000,
               "status": "passed"
             },
             "match": {
@@ -2626,7 +2626,7 @@
         "steps": [
           {
             "result": {
-              "duration": 272000000,
+              "duration": 403000000,
               "status": "passed"
             },
             "line": 28,
@@ -2638,7 +2638,7 @@
           },
           {
             "result": {
-              "duration": 85000000,
+              "duration": 188000000,
               "status": "passed"
             },
             "line": 29,
@@ -2656,7 +2656,7 @@
           },
           {
             "result": {
-              "duration": 106000000,
+              "duration": 115000000,
               "status": "passed"
             },
             "line": 30,
@@ -2674,7 +2674,7 @@
           },
           {
             "result": {
-              "duration": 60000000,
+              "duration": 69000000,
               "status": "passed"
             },
             "line": 31,
@@ -2692,7 +2692,7 @@
           },
           {
             "result": {
-              "duration": 65000000,
+              "duration": 85000000,
               "status": "passed"
             },
             "line": 32,
@@ -2710,7 +2710,7 @@
           },
           {
             "result": {
-              "duration": 131000000,
+              "duration": 173000000,
               "status": "passed"
             },
             "line": 33,
@@ -2722,7 +2722,7 @@
           },
           {
             "result": {
-              "duration": 35000000,
+              "duration": 41000000,
               "status": "passed"
             },
             "line": 34,
@@ -2785,7 +2785,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2281000000,
+              "duration": 2691000000,
               "status": "passed"
             },
             "line": 5,
@@ -2797,7 +2797,7 @@
           },
           {
             "result": {
-              "duration": 273000000,
+              "duration": 322000000,
               "status": "passed"
             },
             "line": 6,
@@ -2820,7 +2820,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-07-29T16:55:04.440Z",
+        "start_timestamp": "2021-08-02T19:22:58.566Z",
         "line": 8,
         "name": "Available currencies",
         "description": "",
@@ -2828,7 +2828,7 @@
         "after": [
           {
             "result": {
-              "duration": 646000000,
+              "duration": 744000000,
               "status": "passed"
             },
             "match": {
@@ -2841,7 +2841,7 @@
         "steps": [
           {
             "result": {
-              "duration": 294000000,
+              "duration": 300000000,
               "status": "passed"
             },
             "line": 9,
@@ -2952,7 +2952,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2289000000,
+              "duration": 3116000000,
               "status": "passed"
             },
             "line": 5,
@@ -2964,7 +2964,7 @@
           },
           {
             "result": {
-              "duration": 269000000,
+              "duration": 350000000,
               "status": "passed"
             },
             "line": 6,
@@ -2987,7 +2987,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-07-29T16:55:07.942Z",
+        "start_timestamp": "2021-08-02T19:23:02.629Z",
         "line": 27,
         "name": "Error message for not selecting currency",
         "description": "",
@@ -2995,7 +2995,7 @@
         "after": [
           {
             "result": {
-              "duration": 669000000,
+              "duration": 751000000,
               "status": "passed"
             },
             "match": {
@@ -3008,7 +3008,7 @@
         "steps": [
           {
             "result": {
-              "duration": 148000000,
+              "duration": 94000000,
               "status": "passed"
             },
             "line": 28,
@@ -3020,7 +3020,7 @@
           },
           {
             "result": {
-              "duration": 4000000,
+              "duration": 5000000,
               "status": "passed"
             },
             "line": 29,
@@ -3049,7 +3049,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2306000000,
+              "duration": 2707000000,
               "status": "passed"
             },
             "line": 5,
@@ -3061,7 +3061,7 @@
           },
           {
             "result": {
-              "duration": 280000000,
+              "duration": 336000000,
               "status": "passed"
             },
             "line": 6,
@@ -3084,7 +3084,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-07-29T16:55:11.322Z",
+        "start_timestamp": "2021-08-02T19:23:06.952Z",
         "line": 31,
         "name": "Error message for not entering value",
         "description": "",
@@ -3092,7 +3092,7 @@
         "after": [
           {
             "result": {
-              "duration": 674000000,
+              "duration": 762000000,
               "status": "passed"
             },
             "match": {
@@ -3105,7 +3105,7 @@
         "steps": [
           {
             "result": {
-              "duration": 345000000,
+              "duration": 321000000,
               "status": "passed"
             },
             "line": 32,
@@ -3117,7 +3117,7 @@
           },
           {
             "result": {
-              "duration": 2000000,
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 33,
@@ -3174,7 +3174,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1480000000,
+              "duration": 1715000000,
               "status": "passed"
             },
             "line": 5,
@@ -3187,7 +3187,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-07-29T16:55:14.941Z",
+        "start_timestamp": "2021-08-02T19:23:11.085Z",
         "line": 7,
         "name": "Only authorized users should be able to login to the application",
         "description": "",
@@ -3195,7 +3195,7 @@
         "after": [
           {
             "result": {
-              "duration": 651000000,
+              "duration": 841000000,
               "status": "passed"
             },
             "match": {
@@ -3208,7 +3208,7 @@
         "steps": [
           {
             "result": {
-              "duration": 184000000,
+              "duration": 204000000,
               "status": "passed"
             },
             "line": 8,
@@ -3230,7 +3230,7 @@
           },
           {
             "result": {
-              "duration": 604000000,
+              "duration": 767000000,
               "status": "passed"
             },
             "line": 9,
@@ -3242,7 +3242,7 @@
           },
           {
             "result": {
-              "duration": 4000000,
+              "duration": 6000000,
               "status": "passed"
             },
             "line": 10,
@@ -3271,7 +3271,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1515000000,
+              "duration": 1745000000,
               "status": "passed"
             },
             "line": 5,
@@ -3284,7 +3284,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-07-29T16:55:17.873Z",
+        "start_timestamp": "2021-08-02T19:23:14.624Z",
         "line": 12,
         "name": "Users with blank username or wrong password should not be able to login.",
         "description": "",
@@ -3292,7 +3292,7 @@
         "after": [
           {
             "result": {
-              "duration": 643000000,
+              "duration": 756000000,
               "status": "passed"
             },
             "match": {
@@ -3305,7 +3305,7 @@
         "steps": [
           {
             "result": {
-              "duration": 148000000,
+              "duration": 167000000,
               "status": "passed"
             },
             "line": 13,
@@ -3317,7 +3317,7 @@
           },
           {
             "result": {
-              "duration": 37000000,
+              "duration": 40000000,
               "status": "passed"
             },
             "line": 14,
@@ -3346,7 +3346,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1488000000,
+              "duration": 1679000000,
               "status": "passed"
             },
             "line": 5,
@@ -3359,7 +3359,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-07-29T16:55:20.224Z",
+        "start_timestamp": "2021-08-02T19:23:17.338Z",
         "line": 16,
         "name": "Users with wrong username or wrong password should not be able to login.",
         "description": "",
@@ -3367,7 +3367,7 @@
         "after": [
           {
             "result": {
-              "duration": 643000000,
+              "duration": 722000000,
               "status": "passed"
             },
             "match": {
@@ -3380,7 +3380,7 @@
         "steps": [
           {
             "result": {
-              "duration": 318000000,
+              "duration": 351000000,
               "status": "passed"
             },
             "line": 17,
@@ -3402,7 +3402,7 @@
           },
           {
             "result": {
-              "duration": 27000000,
+              "duration": 37000000,
               "status": "passed"
             },
             "line": 18,
@@ -3431,7 +3431,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1421000000,
+              "duration": 1731000000,
               "status": "passed"
             },
             "line": 5,
@@ -3444,7 +3444,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-07-29T16:55:22.706Z",
+        "start_timestamp": "2021-08-02T19:23:20.133Z",
         "line": 21,
         "name": "Users can click \"Forgot your password ?\" link and reset their password",
         "description": "",
@@ -3452,7 +3452,7 @@
         "after": [
           {
             "result": {
-              "duration": 655000000,
+              "duration": 743000000,
               "status": "passed"
             },
             "match": {
@@ -3465,7 +3465,7 @@
         "steps": [
           {
             "result": {
-              "duration": 107000000,
+              "duration": 140000000,
               "status": "passed"
             },
             "line": 22,
@@ -3477,7 +3477,7 @@
           },
           {
             "result": {
-              "duration": 186000000,
+              "duration": 219000000,
               "status": "passed"
             },
             "line": 23,
@@ -3489,7 +3489,7 @@
           },
           {
             "result": {
-              "duration": 27000000,
+              "duration": 36000000,
               "status": "passed"
             },
             "line": 24,

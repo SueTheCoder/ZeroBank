@@ -14,9 +14,9 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "com/ZeroBank/step_definitions",
         dryRun = false,
+        monochrome = false,
         tags = "@smoke"
 )
 
 
-public class CukesRunner {
-}
+public class CukesRunner {}
